@@ -31,4 +31,19 @@ y mas  facil`
  let team1 = ['Oscar','Julian','Ricardo'];
  let team2 = ['Valeria','Yesica','Camila'];
  let educacion=['David', ...team1,...team2];
- console.log(educacion)
+ console.log(educacion);
+
+
+
+ const helloPromise = () =>{
+     return new Promise ((resolve,reject)=>{
+
+        if (true) {
+            resolve ('Hey!');
+        } else {
+            reject ('Ups!!');
+        }
+     });
+ }
+
+ helloPromise();
