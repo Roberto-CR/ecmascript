@@ -46,4 +46,10 @@ y mas  facil`
      });
  }
 
- helloPromise();
+ helloPromise()
+ .then(Response=> console.log(Response))
+ .then(()=>console.log('hola'))
+ .catch(error => console.log(error));
+
+
+ let result = base ** exponent;
